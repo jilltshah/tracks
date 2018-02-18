@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../SubwayLines.geojson">
+   </FileRef>
+   <FileRef
+      location = "group:../../SubwayStations.geojson">
+   </FileRef>
+   <FileRef
       location = "group:tracks.xcodeproj">
    </FileRef>
    <FileRef

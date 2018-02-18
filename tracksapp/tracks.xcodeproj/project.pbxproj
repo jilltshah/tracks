@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A76419120392AA10034C106 /* SubwayStations.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 1A76418F20392AA00034C106 /* SubwayStations.geojson */; };
+		1A76419220392AA10034C106 /* SubwayLines.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 1A76419020392AA00034C106 /* SubwayLines.geojson */; };
 		B5B7567C489FD10A61E1ECF7 /* libPods-tracks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A0ED7BDE6624750C83C5D2 /* libPods-tracks.a */; };
 		B62A320D2039226500035A0B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A320C2039226500035A0B /* MapViewController.swift */; };
-		B62A3210203922FF00035A0B /* SubwayLines.geojson in Resources */ = {isa = PBXBuildFile; fileRef = B62A320E203922FE00035A0B /* SubwayLines.geojson */; };
-		B62A3211203922FF00035A0B /* SubwayStations.geojson in Resources */ = {isa = PBXBuildFile; fileRef = B62A320F203922FF00035A0B /* SubwayStations.geojson */; };
 		B67377ED20391B8100E4EC0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67377EC20391B8100E4EC0A /* AppDelegate.swift */; };
 		B67377EF20391B8100E4EC0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67377EE20391B8100E4EC0A /* ViewController.swift */; };
 		B67377F220391B8100E4EC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67377F020391B8100E4EC0A /* Main.storyboard */; };
@@ -38,10 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A76418F20392AA00034C106 /* SubwayStations.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SubwayStations.geojson; path = ../../../SubwayStations.geojson; sourceTree = "<group>"; };
+		1A76419020392AA00034C106 /* SubwayLines.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SubwayLines.geojson; path = ../../../SubwayLines.geojson; sourceTree = "<group>"; };
 		B62A320920391F3000035A0B /* bridgingheader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridgingheader.h; sourceTree = "<group>"; };
 		B62A320C2039226500035A0B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		B62A320E203922FE00035A0B /* SubwayLines.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SubwayLines.geojson; path = ../../SubwayLines.geojson; sourceTree = "<group>"; };
-		B62A320F203922FF00035A0B /* SubwayStations.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SubwayStations.geojson; path = ../../SubwayStations.geojson; sourceTree = "<group>"; };
 		B67377E920391B8100E4EC0A /* tracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67377EC20391B8100E4EC0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B67377EE20391B8100E4EC0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,12 +120,12 @@
 		B67377EB20391B8100E4EC0A /* tracks */ = {
 			isa = PBXGroup;
 			children = (
+				1A76419020392AA00034C106 /* SubwayLines.geojson */,
+				1A76418F20392AA00034C106 /* SubwayStations.geojson */,
 				B67377EC20391B8100E4EC0A /* AppDelegate.swift */,
 				B67377EE20391B8100E4EC0A /* ViewController.swift */,
 				B67377F020391B8100E4EC0A /* Main.storyboard */,
 				B62A320C2039226500035A0B /* MapViewController.swift */,
-				B62A320E203922FE00035A0B /* SubwayLines.geojson */,
-				B62A320F203922FF00035A0B /* SubwayStations.geojson */,
 				B67377F320391B8100E4EC0A /* Assets.xcassets */,
 				B67377F520391B8100E4EC0A /* LaunchScreen.storyboard */,
 				B67377F820391B8100E4EC0A /* Info.plist */,
@@ -270,10 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B62A3210203922FF00035A0B /* SubwayLines.geojson in Resources */,
-				B62A3211203922FF00035A0B /* SubwayStations.geojson in Resources */,
+				1A76419120392AA10034C106 /* SubwayStations.geojson in Resources */,
 				B67377F720391B8100E4EC0A /* LaunchScreen.storyboard in Resources */,
 				B67377F420391B8100E4EC0A /* Assets.xcassets in Resources */,
+				1A76419220392AA10034C106 /* SubwayLines.geojson in Resources */,
 				B67377F220391B8100E4EC0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
