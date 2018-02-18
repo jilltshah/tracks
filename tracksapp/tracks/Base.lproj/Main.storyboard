@@ -113,25 +113,18 @@
                                 </items>
                             </navigationBar>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GCh-Ah-qW7">
-                                <rect key="frame" x="0.0" y="107" width="88" height="90"/>
+                                <rect key="frame" x="0.0" y="107" width="48" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yag-gZ-ZDZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="88" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="48" height="30"/>
                                         <state key="normal" title="Profile"/>
                                         <connections>
                                             <segue destination="EFT-3U-Cvb" kind="show" id="sOQ-aU-bJp"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbU-dk-a4U">
-                                        <rect key="frame" x="0.0" y="30" width="88" height="30"/>
-                                        <state key="normal" title="Subway Map"/>
-                                        <connections>
-                                            <segue destination="A9b-iv-brM" kind="show" id="hLI-b8-bfi"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEK-kQ-5dO">
-                                        <rect key="frame" x="0.0" y="60" width="88" height="30"/>
+                                        <rect key="frame" x="0.0" y="30" width="48" height="30"/>
                                         <state key="normal" title="Search"/>
                                         <connections>
                                             <segue destination="vMe-nF-20M" kind="show" id="pcL-PQ-e62"/>
@@ -139,6 +132,14 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbU-dk-a4U">
+                                <rect key="frame" x="143" y="358" width="88" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Subway Map"/>
+                                <connections>
+                                    <segue destination="A9b-iv-brM" kind="show" id="hLI-b8-bfi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GLw-we-aOi"/>
@@ -254,10 +255,10 @@
             </objects>
             <point key="canvasLocation" x="-407" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="1BN-IB-VtP">
             <objects>
-                <viewController id="A9b-iv-brM" sceneMemberID="viewController">
+                <viewController id="A9b-iv-brM" customClass="MapViewController" customModule="tracks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TRv-zN-zCv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
